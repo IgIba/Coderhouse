@@ -173,3 +173,23 @@ ul:hover{
     transition-property: all;
     transition-duration: 2s;
 }
+.mig {
+    border: 1px solid black;
+}
+.mig:hover{
+    animation: Rog-Phone 4s;
+}
+@keyframes Rog-Phone{
+    0%{
+        transfor: scaleX( 800px)
+    }
+    25%{
+        border-radius: 50%;
+    }
+    50%{
+        width: 800px;
+    }
+    75%{
+       translate: translateY( 300px);
+    }
+}
