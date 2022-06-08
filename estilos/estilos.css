@@ -1,0 +1,175 @@
+
+*{
+    padding:0;
+    margin:0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Koulen&display=swap');
+*{
+    padding:0;
+    margin:0;
+}
+#grilla{
+    display: grid;
+    grid-template-areas: 
+    "nav header header"
+    "nav h3 publicidad"
+    "nav h3 publicidad"
+    "footer footer footer";
+grid-template-columns:20% auto auto ;
+    gap:10px;
+    grid-template-rows: 33% auto 33%;
+    
+    justify-content: stretch;
+
+}
+header{
+    grid-area: header;
+    color:black;
+    font-size: 40px;
+    font-weight: 125;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+display:inline-block;
+background-color:red ;
+list-style-type: none;
+border-top:solid 5px gray;
+border-right: solid 10px rgb(15, 6, 90);
+border-bottom:solid 7px green;
+border-left:solid 12px burlywood;
+margin-top: 10px;
+margin-right: 8px;
+margin-bottom: 12px;
+margin-left: 7px;
+padding: 25px;
+}
+footer{
+    grid-area: footer;
+    background-color: gray;
+    color:blue ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-top:solid 5px gray;
+border-right: solid 10px rgb(15, 6, 90);
+border-bottom:solid 7px green;
+border-left:solid 12px burlywood;
+margin-top: 10px;
+margin-right: 8px;
+margin-bottom: 12px;
+margin-left: 7px;
+padding: 25px;
+font-size: 40px;
+
+}
+section#prodcutos{
+    grid-area: h3;
+}
+
+nav{
+    grid-area: nav;
+    
+}
+aside{
+    grid-area: publicidad;
+}
+.border{
+    border: 1px solid black;
+   
+}
+.clasenav{
+    display: flex;
+    flex-direction: column;
+    
+}
+.tipi{
+    background-color: black;
+    color:red;
+
+}
+ul li{
+    color:black;
+    font-size: 40px;
+    font-weight: 125;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+display:inline-block;
+background-color:red ;
+list-style-type: none;
+border-top:solid 5px gray;
+border-right: solid 10px rgb(15, 6, 90);
+border-bottom:solid 7px green;
+border-left:solid 12px burlywood;
+margin-top: 10px;
+margin-right: 8px;
+margin-bottom: 12px;
+margin-left: 7px;
+padding: 25px;
+
+
+
+}
+#das{
+    color:yellow;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 150;
+}
+.cp{
+    color:red;
+        font-weight: 125;
+        font-size: 40px;
+        font-family: 'Koulen', cursive;
+}
+.banner {
+    height:192.8px ;
+    width: 448.52px;
+}
+.menuflex{
+    display: flex;
+    flex-direction: column;
+}
+h3{
+    color:red;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 150;
+}
+body{
+    background-color: black;
+    font-size: 25px;
+    color:white;
+
+}
+h2{
+    color:red;
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 150;
+}
+.jejo{
+    border-top:solid 5px gray;
+border-right: solid 10px rgb(15, 6, 90);
+border-bottom:solid 7px green;
+border-left:solid 12px burlywood;
+margin-top: 10px;
+margin-right: 8px;
+margin-bottom: 12px;
+margin-left: 7px;
+padding: 25px;
+}
+#das2{
+    color:yellow;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 150;}
+.xdsa{
+    background-image: left, red, yellow;
+
+}
+.gradian{
+    background-image: linear-gradient(to bottom,red , yellow);
+}
+ul:hover{
+    transform:translateX(110px);
+    transition-property: all;
+    transition-duration: 2s;
+}
