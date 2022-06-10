@@ -1,4 +1,3 @@
-
 *{
     padding:0;
     margin:0;
@@ -12,13 +11,13 @@
 #grilla{
     display: grid;
     grid-template-areas: 
-    "nav header header"
-    "nav h3 publicidad"
-    "nav h3 publicidad"
+    "header header header"
+    "nav nav nav"
+    "h3  h3 publicidad"
     "footer footer footer";
-grid-template-columns:20% auto auto ;
+grid-template-columns:40%  auto 50% ;
     gap:10px;
-    grid-template-rows: 33% auto 33%;
+    grid-template-rows: 25% 15% auto 10%;
     
     justify-content: stretch;
 
@@ -31,7 +30,7 @@ header{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-style: italic;
 display:inline-block;
-background-color:red ;
+background-color:gray ;
 list-style-type: none;
 border-top:solid 5px gray;
 border-right: solid 10px rgb(15, 6, 90);
@@ -78,6 +77,23 @@ aside{
 .clasenav{
     display: flex;
     flex-direction: column;
+    color:black;
+    font-size: 40px;
+    font-weight: 125;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+display:inline-block;
+background-color:red ;
+list-style-type: none;
+border-top:solid 5px gray;
+border-right: solid 10px rgb(15, 6, 90);
+border-bottom:solid 7px green;
+border-left:solid 12px burlywood;
+margin-top: 10px;
+margin-right: 8px;
+margin-bottom: 12px;
+margin-left: 7px;
+padding: 25px;
     
 }
 .tipi{
@@ -168,8 +184,8 @@ padding: 25px;
 .gradian{
     background-image: linear-gradient(to bottom,red , yellow);
 }
-ul:hover{
-    transform:translateX(110px);
+.reff:hover{
+    transform:rotate(365deg);  
     transition-property: all;
     transition-duration: 2s;
 }
@@ -192,4 +208,7 @@ ul:hover{
     75%{
        translate: translateY( 300px);
     }
+}
+.reff{
+    color:black;
 }
