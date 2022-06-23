@@ -1,0 +1,24 @@
+$ancho:3800px;
+$gray:gray;
+$orange: orange;
+ .nav1{
+    width:$ancho/2;
+ }
+
+
+
+.tipi--tipi1{
+    @extend .tipi1;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: orange;
+    border-radius: 5px;
+}
+@mixin sizes($width, $height ){
+    height:$height;
+    width: $width;
+    .mixin{
+        @include sizes(500px,150px );
+        background-color: orange;
+        
+    }
+}
